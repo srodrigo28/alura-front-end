@@ -1,3 +1,17 @@
 body{
     display: grid;
+    grid-template-areas:
+        "aside header"
+        "aside main"
+    ;
+}
+
+.cabecalho{
+    grid-area: header;
+}
+.menu-lateral{
+    grid-area: aside;
+}
+.principal{
+    grid-area: main;
 }
