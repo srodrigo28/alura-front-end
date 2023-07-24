@@ -12,3 +12,8 @@ https://cursos.alura.com.br/course/html-css-classes-posicionamento-flexbox?preRe
 ```
 https://cursos.alura.com.br/course/css-construindo-layouts-grid/task/111119
 ```
+
+* Complemento CSS Grid
+```
+https://www.youtube.com/watch?v=R_dqkhX7WbU&t=2727s
+```

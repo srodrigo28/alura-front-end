@@ -18,3 +18,7 @@
 .secao-horizontal .cartao__titulo{
     align-self: end;
 }
+.secao-vertical .cartao{
+    display: grid;
+    grid-template-rows: 1fr auto    ;
+}
