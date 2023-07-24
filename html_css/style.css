@@ -97,6 +97,7 @@ button{
     color: var(--cinza-segundario);
 }
 .secundario__botao{
+    margin-top: 20px;
     display: inline-block;
 }
 
