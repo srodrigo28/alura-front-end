@@ -8,15 +8,14 @@
 }
 
 .secao-vertical{
-    display: grid;
     grid-template-columns: 1fr auto;
     grid-template-rows: 1fr 2fr;
 }
 .secao__cartoes {
     display: grid;
     row-gap: 1rem;
-    --gap-coluna: 1.25rem;
     column-gap: var(--gap-coluna);
+    --gap-coluna: 1.25rem;
     --gap-proporcional: var(--gap-coluna) * (var(--quantidade-maxima-de-colunas) -1) / var(--quantidade-maxima-de-colunas);
     /* Largura minima da coluna */
     --largura-minima-da-coluna: 100%/2 - var(--gap-proporcional);
